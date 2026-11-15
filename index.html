@@ -100,9 +100,9 @@
     <!-- ГАЛЕРЕЯ ШАБЛОНОВ -->
     <div class="gallery">
         <!-- Шаблон 1 (Ваша картинка с икрой) -->
-        <div class="template-card" onclick="selectTemplate(1, 'Красная площадь', '15 Stars')">
-            <!-- Ссылка на картинку (пока поставим заглушку, потом заменим на вашу ссылку) -->
-            <img src="https://images.unsplash.com/photo-1543353071-873f17a7a088?q=80&w=400&auto=format&fit=crop" alt="Красная площадь">
+        <div class="template-card" onclick="selectTemplate(1, 'Зимняя сказка', '15 Stars')">
+            <!-- ВСТАВЛЕНА ВАША ССЫЛКА -->
+            <img src="https://github.com/2012kras2012-byte/face-swap-miniapp/blob/main/IMG_20261115_121758_535.jpg?raw=true" alt="Красная площадь">
             <div class="template-info">
                 <div class="template-title">Зимняя сказка</div>
                 <div class="template-price">15 ⭐</div>
@@ -150,7 +150,7 @@
             document.querySelectorAll('.template-card').forEach(card => {
                 card.classList.remove('selected');
             });
-            // Находим нажатую карточку и добавляем рамку (упрощенно)
+            // Находим нажатую карточку и добавляем рамку
             event.currentTarget.classList.add('selected');
 
             // Показываем блок с загрузкой фото
